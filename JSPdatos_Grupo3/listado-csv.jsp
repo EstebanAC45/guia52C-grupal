@@ -24,7 +24,7 @@ response.setHeader("Content-Disposition","attachment; filename=" + "listadoLibro
 		  
       }
 
-      // cierre de la conexion
+      // cierre de la conexion si
       conexion.close();
     
 

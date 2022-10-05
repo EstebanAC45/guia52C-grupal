@@ -22,7 +22,7 @@
 	String ls_dbdriver = "sun.jdbc.odbc.JdbcOdbcDriver";
  
 	/* Paso 3) Crear query&nbsp; */
-	/* Paso 3.1 CREAR */
+	/* Paso 3.1 CREAR si */
 	if (ls_action.equals("Crear"))
 	{
 		ls_query = "insert into libros (isbn, titulo, autor, id_editorial, anioPublic)";

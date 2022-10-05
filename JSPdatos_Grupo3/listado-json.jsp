@@ -33,7 +33,7 @@ response.setHeader("Content-Disposition","attachment; filename=" + "listadoLibro
       }
       out.println("]}");
 
-      // cierre de la conexion
+      // cierre de la conexion si
       conexion.close();
     
 
