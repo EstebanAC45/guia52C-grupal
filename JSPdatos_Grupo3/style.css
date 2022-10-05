@@ -1,0 +1,201 @@
+.participantes{
+  border-style: inset;
+  border-color: chocolate;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+input{
+  color: rgb(12, 1, 12);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight:bolder ;
+}
+
+#tabla_id {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse ;
+width: 100%;
+height: 200px;
+}
+
+.primero{
+  background-color: rgb(4, 83, 83);
+  padding-right: 6px;
+  margin: 13px;
+  
+}
+
+#hola{
+  background-color: #227b86;
+}
+
+#id_aceptar{
+  color: #000;
+  font-weight: bolder;
+  font-size: larger;
+}
+/* boton */
+#btn-restaurar-1{
+  border-radius: 40px;
+  display: block;
+  
+
+}
+
+.etiqueta{
+  font-weight: bolder;
+}
+/*imagen*/
+.izquierda{
+float: right;
+}
+
+/* segunda tabla*/
+.segundo{
+  display: inline-block;
+  border: solid yellow 2px;
+}
+
+.tabla-2{
+  display: inline-flex;
+  order: 3;
+
+}
+
+#tabla_id td, #tabla_id th {
+border: 2px solid rgb(170, 217, 238);
+padding: 3px;
+}
+
+#tabla_id tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla_id tr:hover {
+color: rgb(0, 119, 255);}
+
+#tabla_id th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #f500cc;
+color: white;
+}
+
+input[type=text], 
+input[type=action], 
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(85, 5, 5);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+text-align: center;
+}
+
+form {
+    border-style: solid;
+    border-width: 2;
+}
+
+/*Para los botones*/
+input[type=submit] {/*Color del boton*/
+  width: 100%;
+  background-color: #1a951f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {/*Color del boton cuando pase el cursor*/
+background-color: #4bc83f;
+}
+input[type=submit]:disabled {/*Color del boton cuando ese deshabilitado*/
+background-color: grey;
+}
+
+a:link, a:visited {/*Color para URL*/
+    background-color: white;
+    color: black;
+    border: 2px solid #800080;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+a:visited {/*Color para ACTUALIZAR*/
+    background-color: rgb(0, 195, 255);
+    color: black;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 14px;
+  }
+
+  /*Para los botones restaurar*/
+  input[type=reset]:hover {/*Color del boton cuando pase el cursor*/
+    background-color: #ff5d15;
+    color: rgb(98, 0, 255);
+  }
+  input[type=reset] {/*Color del boton Borde y fondo*/
+    background-color: white;
+    color: black;
+    border: 2px solid #ff5d15;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+
+
+  #download:hover, #download:active, a[type=url]:hover {
+    background-color: #800080;
+    color: white;
+  }
+
+  a:hover, a:active {
+    background-color: blue;
+    color: white;
+  }
+
+  #delete:link, #delete:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #delete:hover, #delete:active{
+    background-color: red;
+    color: white;
+  }
+  
+  h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: double red;
+    border-radius: 20px;
+  }
+
+  h1{font-size:64px; color: aqua;}
+  h2{font-size:48px; color: aqua; background-color: #15024b;}
+  h3{font-size:36px;}
+  h4{font-size:24px;}
+  h5{font-size:20px;}
+  h6{font-size:18px;}
